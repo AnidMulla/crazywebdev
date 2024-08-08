@@ -1,0 +1,60 @@
+.main-headings {
+  padding-left: 20px !important;
+}
+
+.banner-img {
+  background-color: #6c152b;
+  color: #fff;
+}
+.big-font-class {
+  font-size: 60px;
+}
+.right-section-img {
+  max-width: 500px;
+  max-height: 500px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 500px;
+  height: 500px;
+}
+.heading-para {
+  font-size: 16px;
+  width: 40%;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: brown;
+  display: inline-block;
+}
+.testimonial-text h3 {
+  font-weight: 700;
+}
+.testimonial-text span {
+  font-size: 14px;
+  color: aliceblue;
+}
+
+@media (max-width: 992px) {
+  .big-font-class {
+    font-size: 40px;
+  }
+  .heading-para {
+    font-size: 14px;
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  .nav-div {
+    text-align: center;
+  }
+  .big-font-class {
+    font-size: 30px;
+  }
+  .heading-para {
+    font-size: 12px;
+    width: gray;
+  }
+}
